@@ -49,10 +49,17 @@ header{
 }
 /* banner section style */
 .banner{
+    height: 700px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-inner{
        height: 235px;
        width: 900px;
-       margin-top: 230px;
-       margin-left: 220px;
+  
        text-align: center;
 }
 .banner-description{
@@ -65,6 +72,9 @@ header{
     height: 45px;
     width: 170px;
 }
+
+/* style for action section */
+
 .action{
     display: flex;
     justify-content: center;
