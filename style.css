@@ -18,7 +18,7 @@
 header{
     height: 700px;
     width: 100%;
-    background-image: url(Assets/Hero-bg.png);
+    background-image: url(images/Hero-bg.png);
     background-size: cover;
 }
 /* nav section style */
@@ -64,4 +64,38 @@ header{
 .banner button{
     height: 45px;
     width: 170px;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.webflow{
+    height: 328px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 200px;
+}
+.action-area{
+    padding-right: 150px ;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+}
+.action-description{
+    font-size: 24px;
+    color:#252432;
+    margin-bottom: 20px;
+}
+.action-area button{
+    width: 200px;
+}
+.webflow img{
+    border-radius: 20%;
 }
