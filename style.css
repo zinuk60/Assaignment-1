@@ -277,12 +277,48 @@ header{
     height: 40px;
     width: 500px;
     margin-bottom: 20px;
+    border-radius: 8px;
 }
 .input-area textarea{
     height: 140px;
     width: 500px;
+    border-radius: 20px;
 }
 .input-area button{
     height: 40px;
     width: 500px;
+}
+footer{
+    height: 430px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    height: 230px;
+    width: 540px;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    color:#4E47FF
+    
+}
+.footer-description{
+    color: #8987A1;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-item a{
+    text-decoration: none;
+    color:#000000
 }
