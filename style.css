@@ -216,6 +216,9 @@ header{
     text-align: left;
     padding: 20px;
 }
+.shadow {
+    box-shadow: 4px 4px 10px black;
+}
 .reviewer-title{
     font-size: 25px;
     font-weight: bold;
@@ -245,6 +248,7 @@ header{
     font-weight: 200;
     margin-top: 10px;
 }
+/* style for contract section */
 .contract{
     height: 650px;
     width: 100%;
@@ -283,11 +287,13 @@ header{
     height: 140px;
     width: 500px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 .input-area button{
     height: 40px;
     width: 500px;
 }
+/* style for footer section */
 footer{
     height: 430px;
     width: 100%;
