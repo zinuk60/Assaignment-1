@@ -15,6 +15,9 @@
   font-weight: 800;
   font-style: normal;
 }
+body{
+  background-color: #f5f8ff;
+}
 header{
     height: 700px;
     width: 100%;
@@ -42,10 +45,15 @@ header{
     width: 130px;
     background-color: #4E47FF;
     color:#ffffff;
-    border-radius: 7%;
+    border-radius: 8px;
     margin-right: 100px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(38, 185, 38);
+    border: none;
 }
 /* banner section style */
 .banner{
@@ -59,7 +67,6 @@ header{
 .banner-inner{
        height: 235px;
        width: 900px;
-  
        text-align: center;
 }
 .banner-description{
@@ -108,4 +115,133 @@ header{
 }
 .webflow img{
     border-radius: 20%;
+}
+/* style for count section */
+.user-count{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.user-outer-container{
+    height: 300px;
+    width: 1140px;
+    background-color:#E5E7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.user-inner-container{
+    height: 250px;
+    width: 850px;
+    
+    text-align: center;
+    
+
+}
+.count-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 20px;
+ 
+
+}
+.count{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.primary{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.regular{
+    font-size: 20px;
+    color: #0000005e;
+}
+/* style for review section */
+.review-section{
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.review{
+    height: 350px;
+    width: 1140px;
+    
+    text-align: center;
+     
+    
+}
+
+.reviewer-outer{
+    height: 350px;
+    width: 1140px;
+    
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.reviewer-inner{
+    height: 200px;
+    width: 1140px;
+    
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.reviewer{
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.reviewer-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.reviewer-description{
+   font-size: 16px;
+   font-weight: 400;
+
+}
+.reviewer-details{
+    display: flex;
+    margin-top: 20px;
+}
+.reviewer-details img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.date{
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 10px;
 }
