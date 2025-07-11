@@ -245,3 +245,44 @@ header{
     font-weight: 200;
     margin-top: 10px;
 }
+.contract{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.contract-inner{
+    height:600px ;
+    width: 1150px;
+   
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+.contract-title{
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.input-area{
+    height: 500px;
+    width: 490px;
+    margin-top: 50px;
+}
+.input-area input{
+    height: 40px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.input-area textarea{
+    height: 140px;
+    width: 500px;
+}
+.input-area button{
+    height: 40px;
+    width: 500px;
+}
