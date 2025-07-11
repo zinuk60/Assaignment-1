@@ -156,6 +156,9 @@ header{
 
 
 }
+.shadow {
+    box-shadow: 4px 4px 10px black;
+}
 .primary{
     font-size: 80px;
     font-weight: bold;
@@ -215,9 +218,6 @@ header{
     margin: 20px;
     text-align: left;
     padding: 20px;
-}
-.shadow {
-    box-shadow: 4px 4px 10px black;
 }
 .reviewer-title{
     font-size: 25px;
